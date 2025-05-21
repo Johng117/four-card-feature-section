@@ -1,45 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Four card feature section</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  
-  Reliable, efficient delivery
-  Powered by Technology
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
-
-  Supervisor
-  Monitors activity to identify project roadblocks
-
-  Team Builder
-  Scans our talent network to create the optimal team for your project
-
-  Karma
-  Regularly evaluates our talent to ensure quality
-
-  Calculator
-  Uses data from past projects to provide better delivery estimates
-
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+    <title>Four card feature section</title>
+  </head>
+  <body>
+    <main section class="main-container">
+      <section class="title-information">
+        <h1 class="title-normal">Reliable, efficient delivery</h1>
+        <h1 class="title-bolder">Powered by Technology</h1>
+        <p class="title-info">
+          Our Artificial Intelligence powered tools use millions of project data
+          points to ensure that your project is successful
+        </p>
+      </section>
+      <section class="attributes">
+        <article class="supervisor">
+          <h2 class="s-title">Supervisor</h2>
+          <p class="s-info">Monitors activity to identify project roadblocks</p>
+          <img class="s-image" src="./images/icon-supervisor.svg"/>
+        </article>
+        <article class="team-builder">
+          <h2 class="tb-title">Team Builder</h2>
+          <p class="tb-info">
+            Scans our talent network to create the optimal team for your project
+          </p>
+          <img class="tb-image" src="./images/icon-team-builder.svg"/>
+        </article>
+        <article class="karma">
+          <h2 class="k-title">Karma</h2>
+          <p class="k-info">Regularly evaluates our talent to ensure quality</p>
+          <img class="k-image" src="./images/icon-karma.svg"/>
+        </article>
+        <article class="calculator">
+          <h2 class="c-title">Calculator</h2>
+          <p class="c-info">
+            Uses data from past projects to provide better delivery estimates
+          </p>
+          <img class="c-image" src="./images/icon-calculator.svg"/>
+        </article>
+      </section>
+    </main>
+  </body>
 </html>
